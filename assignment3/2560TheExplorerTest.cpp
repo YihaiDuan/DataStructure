@@ -24,7 +24,7 @@ void dfs(int row,int col,int inr,int inc,int outr,int outc,int step){
         if(a[tx][ty]==0&&visit[tx][ty]==0){
             visit[tx][ty]=1;
             dfs(row,col,tx,ty,outr,outc,step+1);
-            visit[tx][ty]=0;
+            //visit[tx][ty]=0;
         }
 
     }
